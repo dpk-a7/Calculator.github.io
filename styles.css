@@ -106,8 +106,8 @@ body{
 	top: 0;
 	left: 0;
 	height: 280px;
-	background-color: #800080;
-	box-shadow: inset 0 0 50px rgba(101, 103, 197, 0.5);
+	background-color: #9406b8;
+	box-shadow: inset 0 0 50px rgba(68, 70, 238, 0.5);
 	transition: all 0.8s ease 0s;
 }
 .wave-btn__waves:after,
@@ -121,7 +121,7 @@ body{
 	transform: translate3d(-50%, -96%, 0) rotate(0deg) scale(1);
 }
 .wave-btn__waves:before {
-	background-color: #000;
+	background-color: rgba(0, 0, 0, 0.329);
 	border-radius: 48%;
 	animation: waves 5s infinite linear;
 }
